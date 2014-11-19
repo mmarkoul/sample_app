@@ -10,13 +10,13 @@ gem 'rails', '3.2.19'
 #gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
 group :development do
   gem 'sqlite3'
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '3.1.0'
 end
 group :production do
   gem 'pg'
 end
 group :test do
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '3.1.0'
   gem 'webrat', '0.7.1'
 end
 
